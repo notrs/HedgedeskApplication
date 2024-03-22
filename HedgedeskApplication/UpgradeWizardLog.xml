@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\HedgedeskApplication.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\app.config" />
+  <event action="Analyze" type="Success" name="frmAccountCommodityMaintenance.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmAccountCommodityMaintenance.resx" />
+  <event action="Analyze" type="Success" name="frmAccountMaintenance.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmAccountMaintenance.resx" />
+  <event action="Analyze" type="Success" name="frmAddCommodityMonth.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmAddCommodityMonth.resx" />
+  <event action="Analyze" type="Success" name="frmAddCommodityTradingCompanies.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmAddCommodityTradingCompanies.resx" />
+  <event action="Analyze" type="Success" name="frmAddOrder.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmAddOrder.resx" />
+  <event action="Analyze" type="Success" name="frmAddOrderSpread.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmAddOrderSpread.resx" />
+  <event action="Analyze" type="Success" name="frmAddRegionOrder.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmAddRegionOrder.resx" />
+  <event action="Analyze" type="Success" name="frmAddSpreadLimits.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmAddSpreadLimits.resx" />
+  <event action="Analyze" type="Success" name="frmAddtPurchaseSellOrder.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmAddtPurchaseSellOrder.resx" />
+  <event action="Analyze" type="Success" name="frmCloneOrder.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmCloneOrder.resx" />
+  <event action="Analyze" type="Success" name="frmCommodityAddEdit.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmCommodityAddEdit.resx" />
+  <event action="Analyze" type="Success" name="frmCommodityLimits.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmCommodityLimits.resx" />
+  <event action="Analyze" type="Success" name="frmDeleteCommodityTradingCompanies.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmDeleteCommodityTradingCompanies.resx" />
+  <event action="Analyze" type="Success" name="frmDeleteOrder.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmDeleteOrder.resx" />
+  <event action="Analyze" type="Success" name="frmDeleteOrderSpread.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmDeleteOrderSpread.resx" />
+  <event action="Analyze" type="Success" name="frmECPartialFills.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmECPartialFills.resx" />
+  <event action="Analyze" type="Success" name="frmECSplitFills.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmECSplitFills.resx" />
+  <event action="Analyze" type="Success" name="frmECSplitFills_Individual.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmECSplitFills_Individual.resx" />
+  <event action="Analyze" type="Success" name="frmECSplitFillView.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmECSplitFillView.resx" />
+  <event action="Analyze" type="Success" name="frmEditOrder.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmEditOrder.resx" />
+  <event action="Analyze" type="Success" name="frmEditOrderSpread.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmEditOrderSpread.resx" />
+  <event action="Analyze" type="Success" name="frmEditPurchaseSellOrder.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmEditPurchaseSellOrder.resx" />
+  <event action="Analyze" type="Success" name="frmEditPurchaseSettleSellOrder.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmEditPurchaseSettleSellOrder.resx" />
+  <event action="Analyze" type="Success" name="frmHedgePad.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmHedgePad.resx" />
+  <event action="Analyze" type="Success" name="frmHedgeSettings.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmHedgeSettings.resx" />
+  <event action="Analyze" type="Success" name="frmKillSwitch.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmKillSwitch.resx" />
+  <event action="Analyze" type="Success" name="frmLedgerBalanceMaintenance.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmLedgerBalanceMaintenance.resx" />
+  <event action="Analyze" type="Success" name="frmMarginBalance.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmMarginBalance.resx" />
+  <event action="Analyze" type="Success" name="frmMoveMonthEndTrades.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmMoveMonthEndTrades.resx" />
+  <event action="Analyze" type="Success" name="frmMoveToPurchaseSettleTables.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmMoveToPurchaseSettleTables.resx" />
+  <event action="Analyze" type="Success" name="frmMoveTradesTradingCompanyEdit.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmMoveTradesTradingCompanyEdit.resx" />
+  <event action="Analyze" type="Success" name="frmOpenAddOrder.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmOpenAddOrder.resx" />
+  <event action="Analyze" type="Success" name="frmOptions.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmOptions.resx" />
+  <event action="Analyze" type="Success" name="frmOrderFills.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmOrderFills.resx" />
+  <event action="Analyze" type="Success" name="frmOrderPlace.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmOrderPlace.resx" />
+  <event action="Analyze" type="Success" name="frmOrders.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmOrders.resx" />
+  <event action="Analyze" type="Success" name="frmOrdersHistory.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmOrdersHistory.resx" />
+  <event action="Analyze" type="Success" name="frmPurchaseSettle.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmPurchaseSettle.resx" />
+  <event action="Analyze" type="Success" name="frmPurchaseSettleEditApplications.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmPurchaseSettleEditApplications.resx" />
+  <event action="Analyze" type="Success" name="frmPurchaseSettleEditSellApplications.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmPurchaseSettleEditSellApplications.resx" />
+  <event action="Analyze" type="Success" name="frmPurchaseSettleInquiry.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmPurchaseSettleInquiry.resx" />
+  <event action="Analyze" type="Success" name="frmReports.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmReports.resx" />
+  <event action="Analyze" type="Success" name="frmSpreadLimits.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmSpreadLimits.resx" />
+  <event action="Analyze" type="Success" name="frmViewOrder.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmViewOrder.resx" />
+  <event action="Analyze" type="Success" name="frmViewOrderHistory.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmViewOrderHistory.resx" />
+  <event action="Analyze" type="Success" name="frmViewOrderSpread.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmViewOrderSpread.resx" />
+  <event action="Analyze" type="Success" name="frmViewOrderSpreadHistory.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\frmViewOrderSpreadHistory.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\packages.config" />
+  <event action="Analyze" type="Success" name="app.config" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\Properties\app.config" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="HedgedeskApplication" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\HedgedeskApplication.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\HedgedeskReportProject.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\app.config" />
+  <event action="Analyze" type="Success" name="CentralHedgeComfirmationReport.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\CentralHedgeComfirmationReport.resx" />
+  <event action="Analyze" type="Success" name="CentralHedgeSalesComfirmationReport.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\CentralHedgeSalesComfirmationReport.resx" />
+  <event action="Analyze" type="Success" name="DailyFuturesPositionReport.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\DailyFuturesPositionReport.resx" />
+  <event action="Analyze" type="Success" name="DailyFuturesPositionReportByGroup.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\DailyFuturesPositionReportByGroup.resx" />
+  <event action="Analyze" type="Success" name="DailyFuturesPositionReportGroupedDetail.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\DailyFuturesPositionReportGroupedDetail.resx" />
+  <event action="Analyze" type="Success" name="DailySettlementReport.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\DailySettlementReport.resx" />
+  <event action="Analyze" type="Success" name="FuturesComfirmationReport.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\FuturesComfirmationReport.resx" />
+  <event action="Analyze" type="Success" name="LedgerBalanceReport.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\LedgerBalanceReport.resx" />
+  <event action="Analyze" type="Success" name="LedgerBalanceReportZennoh.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\LedgerBalanceReportZennoh.resx" />
+  <event action="Analyze" type="Success" name="MarginCallReport.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\MarginCallReport.resx" />
+  <event action="Analyze" type="Success" name="MonthlySettlementReport.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\MonthlySettlementReport.resx" />
+  <event action="Analyze" type="Success" name="OptionsOpenPosition.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\OptionsOpenPosition.resx" />
+  <event action="Analyze" type="Success" name="OptionsTradedToday.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\OptionsTradedToday.resx" />
+  <event action="Analyze" type="Success" name="RatioPositionReport.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\RatioPositionReport.resx" />
+  <event action="Analyze" type="Success" name="ReconciliationReport_ByComm.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\ReconciliationReport_ByComm.resx" />
+  <event action="Analyze" type="Success" name="ReconciliationReport_ByComp.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\ReconciliationReport_ByComp.resx" />
+  <event action="Analyze" type="Success" name="rptOptionsConfirmationMaster.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\rptOptionsConfirmationMaster.resx" />
+  <event action="Analyze" type="Success" name="rsubOptionsConfirmation.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\rsubOptionsConfirmation.resx" />
+  <event action="Analyze" type="Success" name="rsubOptionsConfirmationOffset.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\rsubOptionsConfirmationOffset.resx" />
+  <event action="Analyze" type="Success" name="subLedgerBalanceReport.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\subLedgerBalanceReport.resx" />
+  <event action="Analyze" type="Success" name="subTotalSalesConfirms.resx" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\subTotalSalesConfirms.resx" />
+  <event action="Analyze" type="Success" name="HedgedeskReportProject" path="C:\Projects\CGB\Hedgedesk\HedgedeskReportProject\HedgedeskReportProject\HedgedeskReportProject.csproj" />
+  <event action="Analyze" type="Success" name="HedgedeskApplication" path="C:\Projects\CGB\Hedgedesk\HedgedeskApplication\HedgedeskApplication.sln" />
+</log>

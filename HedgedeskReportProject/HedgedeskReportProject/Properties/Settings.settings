@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HedgedeskReportProject.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=10.0.10.51;Initial Catalog=CGBOnline;Persist Security Info=True;User ID=notrshelp;Password=4notrs2getN;</Value>
+    </Setting>
+    <Setting Name="UserConnString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=10.0.10.51;Initial Catalog=CGBOnline;Persist Security Info=True;User ID=notrshelp;Password=4notrs2getN;</Value>
+    </Setting>
+    <Setting Name="HedgedeskConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=10.0.10.51;Initial Catalog=Hedgedesk;User ID=IUser_Hedgebook;Password=hedgebook;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

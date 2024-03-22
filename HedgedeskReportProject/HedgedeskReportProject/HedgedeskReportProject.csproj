@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{36109F6E-4F1B-43EA-8355-0E85EB080C05}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HedgedeskReportProject</RootNamespace>
+    <AssemblyName>HedgedeskReportProject</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Reporting, Version=10.2.16.914, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dependencies\Telerik.Reporting.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CentralHedgeComfirmationReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CentralHedgeComfirmationReport.Designer.cs">
+      <DependentUpon>CentralHedgeComfirmationReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CentralHedgeSalesComfirmationReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CentralHedgeSalesComfirmationReport.Designer.cs">
+      <DependentUpon>CentralHedgeSalesComfirmationReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonthlySettlementReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MonthlySettlementReport.Designer.cs">
+      <DependentUpon>MonthlySettlementReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailySettlementReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DailySettlementReport.Designer.cs">
+      <DependentUpon>DailySettlementReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LedgerBalanceReportZennoh.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LedgerBalanceReportZennoh.Designer.cs">
+      <DependentUpon>LedgerBalanceReportZennoh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarginCallReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MarginCallReport.Designer.cs">
+      <DependentUpon>MarginCallReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RatioPositionReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RatioPositionReport.Designer.cs">
+      <DependentUpon>RatioPositionReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReconciliationReport_ByComm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReconciliationReport_ByComm.Designer.cs">
+      <DependentUpon>ReconciliationReport_ByComm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report1.Designer.cs">
+      <DependentUpon>Report1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subTotalSalesConfirms.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="subTotalSalesConfirms.Designer.cs">
+      <DependentUpon>subTotalSalesConfirms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rsubOptionsConfirmation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rsubOptionsConfirmation.Designer.cs">
+      <DependentUpon>rsubOptionsConfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rsubOptionsConfirmationOffset.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rsubOptionsConfirmationOffset.Designer.cs">
+      <DependentUpon>rsubOptionsConfirmationOffset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rptOptionsConfirmationMaster.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptOptionsConfirmationMaster.Designer.cs">
+      <DependentUpon>rptOptionsConfirmationMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyFuturesPositionReportGroupedDetail.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DailyFuturesPositionReportGroupedDetail.Designer.cs">
+      <DependentUpon>DailyFuturesPositionReportGroupedDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyFuturesPositionReportByGroup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DailyFuturesPositionReportByGroup.Designer.cs">
+      <DependentUpon>DailyFuturesPositionReportByGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptionsOpenPosition.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OptionsOpenPosition.Designer.cs">
+      <DependentUpon>OptionsOpenPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptionsTradedToday.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OptionsTradedToday.Designer.cs">
+      <DependentUpon>OptionsTradedToday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReconciliationReport_ByComp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReconciliationReport_ByComp.Designer.cs">
+      <DependentUpon>ReconciliationReport_ByComp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subLedgerBalanceReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="subLedgerBalanceReport.Designer.cs">
+      <DependentUpon>subLedgerBalanceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LedgerBalanceReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LedgerBalanceReport.Designer.cs">
+      <DependentUpon>LedgerBalanceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DailyFuturesPositionReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DailyFuturesPositionReport.Designer.cs">
+      <DependentUpon>DailyFuturesPositionReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalStore.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="FuturesComfirmationReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FuturesComfirmationReport.Designer.cs">
+      <DependentUpon>FuturesComfirmationReport.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CentralHedgeComfirmationReport.resx">
+      <DependentUpon>CentralHedgeComfirmationReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CentralHedgeSalesComfirmationReport.resx">
+      <DependentUpon>CentralHedgeSalesComfirmationReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthlySettlementReport.resx">
+      <DependentUpon>MonthlySettlementReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailySettlementReport.resx">
+      <DependentUpon>DailySettlementReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LedgerBalanceReportZennoh.resx">
+      <DependentUpon>LedgerBalanceReportZennoh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarginCallReport.resx">
+      <DependentUpon>MarginCallReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RatioPositionReport.resx">
+      <DependentUpon>RatioPositionReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReconciliationReport_ByComm.resx">
+      <DependentUpon>ReconciliationReport_ByComm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subTotalSalesConfirms.resx">
+      <DependentUpon>subTotalSalesConfirms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rsubOptionsConfirmation.resx">
+      <DependentUpon>rsubOptionsConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rsubOptionsConfirmationOffset.resx">
+      <DependentUpon>rsubOptionsConfirmationOffset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptOptionsConfirmationMaster.resx">
+      <DependentUpon>rptOptionsConfirmationMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyFuturesPositionReportGroupedDetail.resx">
+      <DependentUpon>DailyFuturesPositionReportGroupedDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyFuturesPositionReportByGroup.resx">
+      <DependentUpon>DailyFuturesPositionReportByGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsOpenPosition.resx">
+      <DependentUpon>OptionsOpenPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsTradedToday.resx">
+      <DependentUpon>OptionsTradedToday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReconciliationReport_ByComp.resx">
+      <DependentUpon>ReconciliationReport_ByComp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subLedgerBalanceReport.resx">
+      <DependentUpon>subLedgerBalanceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LedgerBalanceReport.resx">
+      <DependentUpon>LedgerBalanceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyFuturesPositionReport.resx">
+      <DependentUpon>DailyFuturesPositionReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FuturesComfirmationReport.resx">
+      <DependentUpon>FuturesComfirmationReport.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
