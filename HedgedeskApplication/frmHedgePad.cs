@@ -158,10 +158,6 @@ namespace HedgedeskApplication
                     this.txtC2Begin.Text = dtCorn2.DefaultView[0]["Begin2"].ToString();
                     this.txtC2Current.Text = dtCorn2.DefaultView[0]["Total2"].ToString();
                     this.txtCorn2Total.Text = dtCorn2.DefaultView[0]["Total2"].ToString();
-                    this.txtC3Begin.Text = dtCorn2.DefaultView[0]["Begin3"].ToString();
-                    this.txtC3Current.Text = dtCorn2.DefaultView[0]["Total3"].ToString();
-                    this.txtCorn3Total.Text = dtCorn2.DefaultView[0]["Total3"].ToString();
-                   
 
 
                 }
@@ -182,9 +178,6 @@ namespace HedgedeskApplication
                     this.txtW2Begin.Text = dtWheat2.DefaultView[0]["Begin2"].ToString();
                     this.txtW2Current.Text = dtWheat2.DefaultView[0]["Total2"].ToString();
                     this.txtWheat2Total.Text = dtWheat2.DefaultView[0]["Total2"].ToString();
-                    this.txtW3Begin.Text = dtWheat2.DefaultView[0]["Begin3"].ToString();
-                    this.txtW3Current.Text = dtWheat2.DefaultView[0]["Total3"].ToString();
-                    this.txtWheat3Total.Text = dtWheat2.DefaultView[0]["Total3"].ToString();
 
                 }
 
@@ -193,9 +186,6 @@ namespace HedgedeskApplication
                     this.txtKC2Begin.Text = dtKC2.DefaultView[0]["Begin2"].ToString();
                     this.txtKC2Current.Text = dtKC2.DefaultView[0]["Total2"].ToString();
                     this.txtKC2Total.Text = dtKC2.DefaultView[0]["Total2"].ToString();
-                    this.txtKC3Begin.Text = dtKC2.DefaultView[0]["Begin3"].ToString();
-                    this.txtKC3Current.Text = dtKC2.DefaultView[0]["Total3"].ToString();
-                    this.txtKC3Total.Text = dtKC2.DefaultView[0]["Total3"].ToString();
 
                 }
 
